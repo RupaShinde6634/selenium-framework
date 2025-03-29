@@ -21,6 +21,7 @@ public class LoginTest {
     public void openGoogle() {
         driver.get("https://www.google.com");
         System.out.println("Title: " + driver.getTitle());
+        System.out.println("New line added");
     }
 
     @AfterClass
