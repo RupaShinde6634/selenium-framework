@@ -13,8 +13,6 @@ public class NewTEstForBranch {
 	@Test (priority=1, dependsOnMethods = "test1",alwaysRun = true)
 	public void test2() {
 		System.out.println("P2");
-		
-		
 	}
 
 }
